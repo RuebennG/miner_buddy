@@ -2,8 +2,6 @@ import requests
 import datetime as dt
 import pandas as pd
 
-# wallet = '0x56d890f48b0ce7860d5511432a970c47e7bcdf53'
-
 class eth_nanopool:
     def __init__(self, wallet_addr):
         self.wallet_addr = wallet_addr
